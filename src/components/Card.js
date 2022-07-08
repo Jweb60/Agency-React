@@ -12,7 +12,7 @@ const Card = (biens) => {
     <li className="card">
       <div id="container">
         <div className="product-details">
-          <h1>{biens.biens.property_type.name.fr} </h1>
+          <h1>{biens.biens.property_type.name.fr} de {biens.biens.bedrooms} chambre</h1>
           <span className="hint-star star">
             <i className="fa fa-star" aria-hidden="true"></i>
             <i className="fa fa-star" aria-hidden="true"></i>
